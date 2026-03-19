@@ -1,0 +1,128 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MAIN GAME CONTAINER */
+.app {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* TITLE */
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* SCRAMBLED WORD */
+.word {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin: 20px 0;
+  color: #4facfe;
+}
+
+/* INPUT */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #4facfe;
+}
+
+/* BUTTONS */
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* PRIMARY BUTTON */
+button.primary {
+  background-color: #4facfe;
+  color: white;
+}
+
+button.primary:hover {
+  background-color: #3a8ee6;
+}
+
+/* PASS BUTTON */
+button.pass {
+  background-color: #ff9800;
+  color: white;
+}
+
+button.pass:hover {
+  background-color: #e68900;
+}
+
+/* RESET BUTTON */
+button.reset {
+  background-color: #f44336;
+  color: white;
+}
+
+button.reset:hover {
+  background-color: #d7372a;
+}
+
+/* MESSAGE */
+.message {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* CORRECT / WRONG COLORS */
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
+
+/* STATS */
+.stats {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* GAME OVER */
+.game-over {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
